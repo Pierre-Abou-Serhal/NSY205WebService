@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <webserviceUrl>http://localhost:9082/</webserviceUrl>
+    <database>
+        <url>jdbc:sqlserver://localhost:1433;databaseName=BankWebService;trustServerCertificate=true</url>
+        <username>sa</username>
+        <password>sasadmin</password>
+    </database>
+</config>
