@@ -14,9 +14,9 @@ import javax.xml.bind.annotation.XmlTransient;
 public class BankAccount {
 	@XmlElement
 	private int code;
-	@XmlAttribute
+	@XmlElement
 	private double solde;
-	@XmlAttribute
+	@XmlElement
 	private Date creationDate;
 	
 	public BankAccount() {
